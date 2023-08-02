@@ -10,7 +10,7 @@ from rest_framework.response import Response
 class ProductList(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
-    lookup_field = 'name'
+    lookup_field = 'slug'
     
     
 class CategoryList(viewsets.ModelViewSet):

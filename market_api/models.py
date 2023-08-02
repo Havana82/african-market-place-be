@@ -19,7 +19,7 @@ class Product(models.Model):
     price = models.IntegerField(null=True)
     content = models.TextField(null=True, blank=True)
     image = models.ImageField(upload_to='image', null=True, blank=True)
-    
+    image_url = models.CharField(max_length=255, null=True)
     def __str__(self) -> str:
         return self.name
    

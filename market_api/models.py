@@ -9,7 +9,7 @@ class Category(models.Model):
     def __str__(self) -> str:
         return self.name
 
-   
+
     
     
 class Product(models.Model):
@@ -22,5 +22,5 @@ class Product(models.Model):
     image_url = models.CharField(max_length=255, null=True)
     def __str__(self) -> str:
         return self.name
-   
+
     

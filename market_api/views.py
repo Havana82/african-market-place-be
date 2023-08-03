@@ -16,7 +16,7 @@ class ProductList(viewsets.ModelViewSet):
 class CategoryList(viewsets.ModelViewSet):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
-    lookup_field = 'name'
+    lookup_field = 'id'
         
 class CategoryProduct(viewsets.ViewSet):
     def retrieve(self, request, pk=None):

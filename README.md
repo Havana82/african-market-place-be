@@ -3,8 +3,8 @@ Summary
 This is tha API for ther afab-african-market user interface. This Api enables users to retrieve all product data, retrieve by categories,
 and search for products by product name.
 
-Dependencie
-asgiref==3.7.2
+#Dependencie
+#asgiref==3.7.2
 Django==4.2.3
 django-cors-headers
 django-environ

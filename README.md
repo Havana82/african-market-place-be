@@ -28,5 +28,5 @@ and search for products by product name.
 - product data can be viewed on http://127.0.0.1:8000/api/products/
 - Category data can be viewed on http://127.0.0.1:8000/api/category/
 - Product can be viewed based on category on http://127.0.0.1:8000/api/categoryBasedProducts
--Each Category can be viewed by id on http://127.0.0.1:8000/api/category/id
+- Each Category can be viewed by id on http://127.0.0.1:8000/api/category/id
 
